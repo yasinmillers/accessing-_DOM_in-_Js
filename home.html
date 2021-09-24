@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to accees elements in DOM using JavaScript</title>
+    <style>
+        html {
+            font-family: sans-serif;
+            color: #333;
+        }
+        
+        body {
+            max-width: 500px;
+            margin: 0 auto;
+            padding: 0 15px;
+        }
+        
+        div,
+        article {
+            padding: 10px;
+            margin: 5px;
+            border: 1px solid #dedede;
+        }
+    </style>
+</head>
+
+<body>
+    <h1>Accessing elements in DOM.</h1>
+    <h2>ID (#Demo)</h2>
+    <div id="demo">Access me by ID</div>
+    <h2>Class (.Demo)</h2>
+    <div class="demo">Access me by Class(1)</div>
+    <div class="demo">Access me by Class(2)</div>
+    <h2> Tag (Article)</h2>
+
+    <article>Access me by Tag(1)</article>
+    <article>Access me by Tag(2)</article>
+
+    <h2> Query Selector</h2>
+    <div id="demo-query">Access me by Query</div>
+
+    <h2> Query Selector All</h2>
+    <div class="demo-query-all">Access me by Query Selector All(1)</div>
+    <div class="demo-query-all">Access me by Query Selector All(2)</div>
+
+</body>
+<script src="access.js"></script>
+
+</html>
